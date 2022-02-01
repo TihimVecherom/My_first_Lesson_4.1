@@ -64,7 +64,6 @@ h1 span{
 	font-family: 'Chakra Petch';
 	font-weight: 600;
     font-style: italic;
-    font-display: swap;
 	font-size: 40px;
 	color: rgb(255, 0, 85);
 	text-decoration: underline;
@@ -92,8 +91,7 @@ h3{
 p{
 	font-family: Oswald,sans-serif;
 	font-weight: 400;
-	font-style: bold;
-	font-size: 20;
+	font-size: 20px;
 	text-align: justify;
 	color: rgb(255, 80, 138);
 }
@@ -157,21 +155,21 @@ p ~ p ~ p{
 	color: rgb(66, 58, 51);
 }
 
-footer > span{
+#footer > span{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-style: italic;
 	font-size: medium;
 	color: brown;
 }
 
-footer > span ~ span{
+#footer > span ~ span{
 	font-family: 'Street Letters Demo';
 	font-size: 30px;
 	color: rgb(42, 165, 58);
 	text-align:right;
 }
 
-footer > span ~ span ~ span{
+#footer > span ~ span ~ span{
 	color: rgb(175, 18, 162);
 	font-size: 25px;
 	text-align:right;
