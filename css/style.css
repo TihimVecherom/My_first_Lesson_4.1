@@ -96,14 +96,14 @@ p{
 	color: rgb(255, 80, 138);
 }
 
-.Freid  p ~ p{
+.Freid > p > span{
 	font-family: 'Chakra Petch',sans-serif;
 	font-weight: 900;
     font-style: italic;
 	font-size: 18px;
 	text-decoration: underline;
 	color: rgb(16, 173, 2);
-	text-shadow: 1px 1px 5px  rgb(15, 131, 4),1300px -720px 8px rgb(36, 204, 140),1200px -650px 3px rgb(39, 158, 112),1100px -550px 4px rgb(252, 114, 206),1000px -450px 2px rgb(53, 175, 59),900px -350px 5px rgb(233, 248, 18),800px -250px 3px rgb(102, 175, 53);
+	text-shadow: 1px 1px 5px  rgb(15, 131, 4),300px -400px 8px rgb(36, 204, 140),200px -300px 5px rgb(233, 248, 18),100px -200px 3px rgb(102, 175, 53),0px -100px 3px rgb(224, 104, 170);
 }
 
 
@@ -114,11 +114,11 @@ p{
 	font-size: 25px;
 	text-decoration: overline;
 	color: rgb(116, 67, 3);
-	text-shadow: 1px 1px 5px  rgb(90, 52, 3),1300px -720px 8px rgb(36, 204, 140),1200px -650px 3px rgb(39, 158, 112),1100px -550px 4px rgb(252, 114, 206),1000px -450px 2px rgb(53, 175, 59),900px -350px 5px rgb(233, 248, 18),800px -250px 3px rgb(102, 175, 53);
+	text-shadow: 1px 1px 5px  rgb(90, 52, 3),600px -720px 8px rgb(36, 204, 140),500px -650px 3px rgb(39, 158, 112),400px -550px 4px rgb(252, 114, 206),300px -450px 2px rgb(53, 175, 59),200px -350px 5px rgb(233, 248, 18),100px -250px 3px rgb(102, 175, 53);
 }
 
 
-p ~ p ~ p{
+p span span{
 	font-family: 'Oswald',sans-serif;
 	font-weight: 900;
     font-style: italic;
@@ -126,21 +126,21 @@ p ~ p ~ p{
 	text-decoration: line-through;
 	color: rgb(57, 34, 158);
 	text-shadow: 1px 1px 5px  rgb(127, 14, 219);
-	text-shadow: 1px 1px 5px  rgb(90, 52, 3),1300px -720px 8px rgb(36, 204, 140),1200px -650px 3px rgb(39, 158, 112),1100px -550px 4px rgb(252, 114, 206),1000px -450px 2px rgb(53, 175, 59),900px -350px 5px rgb(233, 248, 18);
+	text-shadow: 1px 1px 5px  rgb(90, 52, 3);
 }
 	
 	
-[class*="Psychological"] > p ~ p{
+[class*="Psychological"] > p span{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 35px;
 	color: rgb(36, 204, 140);
 	text-decoration: none;
 	text-shadow: 1px 1px 5px  rgb(14, 212, 219);
-	text-shadow: 1px 1px 5px  rgb(90, 52, 3),1300px -720px 8px rgb(36, 204, 140),1200px -650px 3px rgb(39, 158, 112),1100px -550px 4px rgb(252, 114, 206);
+	text-shadow: 1px 1px 5px  rgb(90, 52, 3),200px -650px 3px rgb(39, 158, 112),100px -550px 4px rgb(252, 114, 206);
 }
 
 #lostFreid{
-	font-family: 'Street Letters Demo';
+	font-family: Oswald;
 	font-weight: 900;
     font-style: normal;
 	font-size: 25px;
