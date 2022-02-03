@@ -87,7 +87,7 @@
 @font-face {
     font-family: 'Chakra Petch';
     src: url('../fonts/ChakraPetch-Regular.woff2') format('woff2'),
-        url('../fonts/-Regular.woff') format('woff');
+        url('../fonts/ChakraPetch-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -95,7 +95,7 @@
 
 @font-face {
     font-family: 'Chakra Petch';
-    src: url('../fonts/ChakraPetch-Bold.woff2') format('woff2'),
+    src: url('../fonts/ChakraPetch-SemiBold.woff2') format('woff2'),
         url('../fonts/ChakraPetch-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
